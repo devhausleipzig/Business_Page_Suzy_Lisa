@@ -1,10 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap");
+@font-face {
+	font-family: SD Georgia Light;
+	src: url("/./Assets/Fonts/SD Georgia Light.ttf");
+}
+
+@font-face {
+	font-family: SD Georgia Light Italic;
+	src: url("./Assets/Fonts/SD_Georgia_Light_Italic_Demo.ttf");
+}
+
+@font-face {
+	font-family: SF Arborcrest Light;
+	src: url("./Assets/Fonts/SF-Arborcrest-Light/SF Arborcrest Light.ttf");
+}
+
 /* -------------------- */
 /* Shared */
 /* -------------------- */
 
 body {
-	font-family: Inter, sans-serif;
+	font-family: , sans-serif;
 }
 
 .bold-text,
@@ -15,6 +29,11 @@ strong {
 .icon {
 	width: 1.9em;
 	height: 1.9rem;
+}
+
+a {
+	text-decoration: none;
+	color: #1d1d1d;
 }
 
 /* -------------------- */
@@ -44,6 +63,7 @@ strong {
 	padding: 0.4rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
+	border-bottom: black 1px solid;
 }
 
 .navb a {
@@ -139,6 +159,29 @@ strong {
 	display: flex;
 	height: 80vh;
 	width: 100vw;
+}
+
+.herobutton {
+	border: 2px solid black;
+	color: black;
+	border-radius: 27px;
+	height: 2.5rem;
+	width: 0 auto;
+	background: none;
+	font-family: SF Arborcrest Light;
+	font-size: 2.9vh;
+	font-weight: bolder;
+}
+
+.herobutton a {
+	font-weight: bolder;
+	text-decoration: none;
+	padding-left: 0.9rem;
+	padding-right: 0.9rem;
+}
+
+.buttoninset {
+	margin-left: 2rem;
 }
 
 .hero-image {
