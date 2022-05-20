@@ -13,14 +13,20 @@ strong {
 }
 
 .icon {
+<<<<<<< HEAD
 	width: 1.5rem;
 	height: 1.5rem;
+=======
+	width: 1.9em;
+	height: 1.9rem;
+>>>>>>> dba20a553d28e5329aa176f2bad09339ecd0b0ac
 }
 
 /* -------------------- */
 /* Header */
 /* -------------------- */
 
+<<<<<<< HEAD
 header {
 	display: flex;
 	justify-content: space-between;
@@ -106,12 +112,123 @@ input[type="search"] {
 }
 .add-user:active {
 	background-color: hotpink;
+=======
+.sticky {
+	position: sticky;
+	top: 0rem;
+	background-color: white;
+}
+
+.logo {
+	font-family: SD Georgia Light Italic;
+	font-style: oblique;
+	text-decoration: none;
+	color: black;
+	font-size: 1.8rem;
+}
+
+.navb {
+	font-family: SF Arborcrest Light, sans-serif;
+	font-size: 2.7vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.4rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.navb a {
+	text-decoration: none;
+	color: #1d1d1d;
+}
+
+.navb a:hover {
+	color: black;
+}
+
+.navelementcontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.navelement {
+	display: inline-block;
+}
+
+.navelement:hover {
+	font-weight: 900;
+	transform: scale(101%);
+}
+
+.navelement:hover .dot {
+	background-color: black;
+}
+
+.navelement:hover .nav-icon {
+	fill: black;
+}
+
+.dot {
+	border: 1px solid black;
+	border-radius: 9999px;
+	height: 0.7rem;
+	width: 0.7rem;
+	display: inline-block;
+	margin-left: 1rem;
+	margin-right: 0.3rem;
+}
+
+.searchfavoritefinderelement {
+	display: flex;
+	align-items: center;
+}
+
+.search-icon {
+	margin: 0.2rem;
+}
+
+.navelement .button {
+	display: flex;
+	justify-self: center;
+	align-items: center;
+}
+
+.button {
+	border: 1px solid black;
+	color: black;
+	border-radius: 9999px;
+	height: 1.8rem;
+	width: 0 auto;
+	background: none;
+	font-family: SF Arborcrest Light;
+	font-size: 2.9vh;
+	font-weight: bolder;
+}
+
+.button:hover {
+	background-color: black;
+}
+
+.button:hover > a {
+	color: white;
+}
+
+.button a {
+	font-weight: bolder;
+	text-decoration: none;
+	padding-left: 0.6rem;
+	padding-right: 0.6rem;
+>>>>>>> dba20a553d28e5329aa176f2bad09339ecd0b0ac
 }
 
 /* -------------------- */
 /* Hero */
 /* -------------------- */
 
+<<<<<<< HEAD
 .first-image-set {
 	display: flex;
 	height: 80vh;
@@ -131,6 +248,95 @@ input[type="search"] {
 	font-weight: 300;
 	line-height: 4rem;
 	margin-bottom: 1rem;
+=======
+#hero {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 2rem;
+	gap: 4rem;
+}
+
+.hero-text {
+	width: 40%;
+}
+
+.hero-text h1 {
+	font-size: 3rem;
+	font-weight: 300;
+	line-height: 4rem;
+	margin-bottom: 1rem;
+}
+
+.hero-text > p {
+	margin-bottom: 2rem;
+}
+
+.designers {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.avatars .avatar {
+	width: 3rem;
+	height: 3rem;
+}
+
+.inset {
+	margin-left: -16px;
+}
+
+.avatars .avatar {
+	position: relative;
+	border: 2px solid white;
+}
+
+.hero-image {
+	width: 40%;
+	position: relative;
+}
+
+.hero-image .shape,
+.hero-image img {
+	width: 70%;
+	height: 40rem;
+	border-top-left-radius: 40%;
+	border-top-right-radius: 40%;
+}
+
+.hero-image img {
+	object-fit: cover;
+}
+
+.hero-image .shape {
+	border: 2px solid gainsboro;
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+	z-index: -1;
+}
+
+.hero-stats {
+	width: 20%;
+	align-self: flex-end;
+}
+
+.stats {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.stat h4 {
+	font-weight: bold;
+	font-size: x-large;
+	margin-bottom: 0.4rem;
+}
+
+.stat p {
+	color: #3f3f3f;
+>>>>>>> dba20a553d28e5329aa176f2bad09339ecd0b0ac
 }
 
 /* -------------------- */
